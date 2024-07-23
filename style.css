@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(106, 104, 104);
+    width: 200px;
+    position: absolute;
+    /* font-family: 'Abril Fatface', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar ul{
+    padding: 15px;
+}
+
+.sidebar ul li{
+    list-style: none;
+    padding: 22px 0px;
+    font-size: 27px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar ul li a:hover{
+    background-color: aliceblue;
+    color: rgb(40, 39, 39);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main{
+    /* background-color: lightcoral; */
+    width: 90vw;
+    
+}
+
+.container{
+    display: flex;
+    /* background-color: rgb(245, 240, 242); */
+}
+
+.mainInfo{
+    /* background-color: rgb(213, 23, 118); */
+    /* background-color: black; */
+    color: rgb(172, 110, 110);
+    height: 55vh;
+    width: 80vw;
+    margin: 144px 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+}
+
+.hello{
+    font-size: 50px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    /* font-family: 'Abril Fatface', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.about{
+    font-size: 30px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.moreabout{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 7px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(165, 113, 131);
+    color: antiquewhite;
+}
+
+.devPic img{
+    /* height: 220px; */
+    height: 55vh;
+    /* width: 220px; */
+}
+
+.contactform{
+    font-family: 'Sofia Sans Condensed', sans-serif;   
+    padding: 0 245px;
+    padding-top: 100px;
+}
+
+.contactform h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 12px 0;
+    font-size: 35px;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form label{
+    font-size: 20px;
+}
+
+#emailHelp{
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px;
+}
+
+h1{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.blogContainer{
+    padding-left: 200px;
+}
+
+.blogItem{
+    padding: 10px 0;
+    margin: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.intro{
+    padding: 60px 230px;
+}
+
+.intro h2{
+    margin: 12px;
+    text-decoration: underline;
+}
+
+.intro p{
+    margin: 12px;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 800;
+    padding: 2px 0;
+}
+
+.skill{
+    width: 300px;
+    height: 8px;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 0 10px;
+}
+
+.hundred{
+    width: 300px;
+    background-color: green;
+}
+
+.fifty{
+    width: 150px;
+    background-color: rgb(235, 121, 121);
+}
+
+.twenty_five{
+    width: 75px;
+    background-color: red;
+}
+
+.seventy_five{
+    width: 225px;
+    background-color: greenyellow;
+}
+
+.projectContainer{
+    padding: 12px;
+}
+
+.projectItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 800;
+    padding: 4px 0;
+}
+
+.project{
+    margin: 0 10px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 8px;
+    left: 12px;
+}
+
+.cross{
+    margin-left: 160px;
+}
+
+.sidebarGo{
+    transform: translate(-253px, 0px);
+    position: absolute;
+}
+
+@media (max-width: 1300px) {
+    /* .sidebar{
+        transform: translate(-253px, 0px);
+        position: absolute;
+    } */
+    .mainInfo{
+        height: 40vh;
+        width: 100vw;
+        margin: 370px auto;
+        padding: 5px;
+    }
+    .devPic img{
+        /* height: 40vh; */
+        display: none;
+    }
+    .mainInfo, .contactform, .blogContainer, .intro{
+        margin: 0px;
+        padding: 0px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+}
